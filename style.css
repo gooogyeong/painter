@@ -1,0 +1,44 @@
+.wrapper {
+    max-width: 900px;
+    margin: auto;
+    font-family: "Arial";
+}
+
+.toolbar {
+    width: 100%;
+    background: #444;
+    overflow: auto;
+}
+
+/* link inside toolbar */
+.toolbar a{
+    float: left;
+    width: 11%;
+    text-align: center;
+    padding: 6px 5px;
+    transition: all 0.5s ease;
+}
+
+.toolbar a:hover {
+    background-color: black;
+}
+
+.selected {
+    background: black;
+}
+
+#my-canvas {
+    width: 100%;
+    border: 3px solid black;
+}
+
+#img-data-div {
+    width: 100%;
+    max-width: 900px;
+    height: 200px;
+}
+
+.toolbar a img {
+    max-width: 100%;
+    height: auto;
+}
